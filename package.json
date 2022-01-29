@@ -1,0 +1,15 @@
+{
+  "name": "vue.test",
+  "scripts": {
+    "dev": "etcpack_dev --config etcpack.dev.js",
+    "build": "nodejs -e build && etcpack_pkg --config etcpack.prod.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@etcpack/babel-loader": "^0.1.1",
+    "@etcpack/commonjs-plug": "^0.1.0",
+    "@hai2007/nodejs": "^2.2.0",
+    "etcpack": "^0.5.4"
+  }
+}

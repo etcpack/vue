@@ -1,0 +1,16 @@
+{
+  "name": "@etcpack/vue-loader-plug",
+  "version": "0.1.0-alpha.0",
+  "description": "📦 为Vue.js提供的基于EtcPack的打包支持",
+  "main": "index.js",
+  "author": "你好2007",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etcpack/vue.git"
+  },
+  "keywords": [
+    "etcpack",
+    "vue"
+  ],
+  "license": "MIT"
+}
