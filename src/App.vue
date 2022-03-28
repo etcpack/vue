@@ -1,6 +1,6 @@
 <template>
   <div class="app-view">
-    {{ tips }}
+    --{{ tips }}--
     <span v-show="flag">内容是否可见</span>
     <button @click="doit1">点击我</button>
   </div>
@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       tips: "基于EtcPack对Vue项目进行打包！",
-      flag: false,
+      flag: true,
     };
   },
   methods: {

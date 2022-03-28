@@ -117,7 +117,10 @@ __etcpack__scope_args__=window.__etcpack__getBundle('4');
                     attrs:{
   "vue": "",
   "data-vue-7ac74a55": ""
-}
+},
+                    directives:[
+                        
+                    ],
                 },[createElement('div',{
                     on:{
                         
@@ -125,21 +128,35 @@ __etcpack__scope_args__=window.__etcpack__getBundle('4');
                     attrs:{
   "class": "app-view",
   "data-vue-7ac74a55": ""
-}
-                },["{{ tips }}",createElement('span',{
+},
+                    directives:[
+                        
+                    ],
+                },["--"+this._s(this.tips)+"--",createElement('span',{
                     on:{
                         
                     },
                     attrs:{
   "data-vue-7ac74a55": ""
-}
+},
+                    directives:[
+                        {
+                            name:'show',
+                            rawName:'v-show',
+                            value:this.flag,
+                            expression:'flag'
+                        }
+                    ],
                 },["内容是否可见"]),createElement('button',{
                     on:{
                         click:this.doit1
                     },
                     attrs:{
   "data-vue-7ac74a55": ""
-}
+},
+                    directives:[
+                        
+                    ],
                 },["点击我"])])])
 
     };
@@ -160,7 +177,7 @@ window.__etcpack__bundleSrc__['3']=function(){
   data() {
     return {
       tips: "基于EtcPack对Vue项目进行打包！",
-      flag: false,
+      flag: true,
     };
   },
   methods: {
