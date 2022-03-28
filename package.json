@@ -9,7 +9,11 @@
     "@babel/preset-env": "^7.0.0",
     "@etcpack/babel-loader": "^0.1.1",
     "@etcpack/commonjs-plug": "^0.1.0",
-    "@hai2007/nodejs": "^2.2.0",
-    "etcpack": "^0.5.4"
+    "@etcpack/scss-loader": "^0.1.2",
+    "@hai2007/nodejs": "^3.0.0",
+    "etcpack": "^0.8.3"
+  },
+  "dependencies": {
+    "vue": "^2.6.14"
   }
 }

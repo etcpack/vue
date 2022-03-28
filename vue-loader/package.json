@@ -12,5 +12,10 @@
     "etcpack",
     "vue"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@hai2007/algorithm": "^0.7.6",
+    "@hai2007/tool": "^1.2.0",
+    "hash-sum": "^2.0.0"
+  }
 }
