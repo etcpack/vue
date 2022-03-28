@@ -1,6 +1,6 @@
 {
   "name": "@etcpack/vue-loader",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.1",
   "description": "📦 为Vue.js提供的基于EtcPack的打包支持",
   "main": "index.js",
   "author": "你好2007",

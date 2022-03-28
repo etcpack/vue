@@ -69,12 +69,13 @@ var Vue =__etcpack__scope_args__.default;
 __etcpack__scope_args__=window.__etcpack__getBundle('2');
 var App =__etcpack__scope_args__.default;
 
-new Vue({
+var vm = new Vue({
   el: document.getElementById('root'),
   render: function render(createElement) {
     return createElement(App);
   }
 });
+console.log(vm);
   
     return __etcpack__scope_bundle__;
 }
@@ -109,7 +110,37 @@ __etcpack__scope_args__=window.__etcpack__getBundle('4');
 
     script.render=function(createElement){
 
-        return createElement('div',{"vue":"","data-vue-7ac74a55":""},[createElement('div',{"data-vue-7ac74a55":""},["{{ tips }}"])])
+        return createElement('div',{
+                    on:{
+                        
+                    },
+                    attrs:{
+  "vue": "",
+  "data-vue-7ac74a55": ""
+}
+                },[createElement('div',{
+                    on:{
+                        
+                    },
+                    attrs:{
+  "class": "app-view",
+  "data-vue-7ac74a55": ""
+}
+                },["{{ tips }}",createElement('span',{
+                    on:{
+                        
+                    },
+                    attrs:{
+  "data-vue-7ac74a55": ""
+}
+                },["内容是否可见"]),createElement('button',{
+                    on:{
+                        click:this.doit1
+                    },
+                    attrs:{
+  "data-vue-7ac74a55": ""
+}
+                },["点击我"])])])
 
     };
 
@@ -129,7 +160,14 @@ window.__etcpack__bundleSrc__['3']=function(){
   data() {
     return {
       tips: "基于EtcPack对Vue项目进行打包！",
+      flag: false,
     };
+  },
+  methods: {
+    doit1() {
+      console.log(this.tips, this.flag);
+      this.flag = !this.flag;
+    },
   },
 };
   

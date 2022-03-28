@@ -2,7 +2,9 @@ import Vue from 'vue';
 
 import App from './App.vue';
 
-new Vue({
+let vm = new Vue({
     el: document.getElementById('root'),
     render: createElement => createElement(App)
 });
+
+console.log(vm);
