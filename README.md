@@ -31,7 +31,7 @@ module.exports = {
         test: /\.css$/,
         handler: ['@etcpack/vue-style-loader', '@etcpack/scss-loader']
     }, {
-        test: /\.paper$/,
+        test: /\.vue$/,
         handler: ['@etcpack/vue-loader']
     }],
     plug: [
